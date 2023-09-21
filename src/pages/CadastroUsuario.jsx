@@ -11,6 +11,7 @@ function CadastroUsuario() {
   const [ cadastro, setCadstro ] = useState( false );
   const [ erro, setErro ] = useState( false );
 
+
   function Cadastrar( evento ) {
 
     evento.preventDefault();
