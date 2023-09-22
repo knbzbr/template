@@ -16,6 +16,7 @@ function Dashboard() {
   }, [] )
   return (
     <>
+        <Header/>
         <Outlet />
     </>
   )
